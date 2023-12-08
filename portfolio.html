@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Sakshi.jpg" alt="image" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web-designing from inilization mode</p>
+          <h1>Hi, I'm <span>Sakshi</span> from patna</h1>
+        </div>
+    </div>
+  </div>
+
+  <!-----about section---->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Sakshi.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sed nisi at veritatis, amet libero optio? In neque perferendis adipisci? Placeat nobis deleniti eveniet, voluptas, cupiditate, nostrum quaerat voluptatibus vero deserunt eius quae sequi. Soluta molestiae temporibus libero recusandae quod. ipsum dolor sit amet consectetur adipisicing elit. Quos modi sit consequatur accusantium dolores natus voluptates illo sequi adipisci iusto.</p>
+
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web-developer</span><br>Designing web page</li>
+              <li><span>backend-developer</span><br>Designing web page</li>
+              <li><span>fronted-developer</span><br>Designing web page</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Web-developer</span><br>Designing web page</li>
+              <li><span>backend-developer</span><br>Designing web page</li>
+              <li><span>fronted-developer</span><br>Designing web page</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>developer</span><br> web page</li>
+              <li><span>backend-developer</span><br>Designing web page</li>
+              <li><span>fronted-developer</span><br>Designing web page</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!------------services------------------>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title"> My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>web design</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repudiandae blanditiis recusandae, maiores ducimus corrupti!</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <h2>backend design</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repudiandae blanditiis recusandae, maiores ducimus corrupti!</p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <h2>fronted design</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic repudiandae blanditiis recusandae, maiores ducimus corrupti!</p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------protfolio-------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+      <div class="work">
+        <img src="images/web design.jpg" alt="">
+        <div class="layer">
+          <h3>Social media app</h3>
+          <p>The app connect you to talented people around the world.
+            Download it from play store.
+          </p>
+          <a href="#"></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/frontend.jpg" alt="">
+        <div class="layer">
+          <h3>Social media app</h3>
+          <p>The app connect you to talented people around the world.
+            Download it from play store.</p>
+          <a href="#"></a>
+      </div>
+      </div>
+      <div class="work">
+        <img src="images/web design.jpg" alt="">
+        <div class="layer">
+          <h3>Social media app</h3>
+          <p>The app connect you to talented people around the world.
+            Download it from play store.
+          </p>
+          <a href="#"></a>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+  <!---------contact -------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">contact me</h1>
+          <p>contact@gmil.com</p>
+          <p>450753289</p>
+          <div class="social-media">
+            <a href="https://facebook.com/">facebook</a><br>
+            <a href="https://instagram.com">instagram</a><br>
+            <a href="https://youtube.com">youtube</a><br>
+            <a href="https://linkedin.com">linkedin</a><br>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="your name" required>
+            <input type="email" name="email" placeholder="your email" required>
+            <textarea name="message"rows="6" placeholder="your meassge"></textarea>
+            <button type="submit" class="but">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script> 
+</body>
+</html>
